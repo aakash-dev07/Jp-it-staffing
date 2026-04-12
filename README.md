@@ -19,3 +19,11 @@ A professional recruitment website with these features:
 - **Libraries**: Particles.js, AOS (Animate On Scroll), Font Awesome
 
 ## Project Structure
+jp-it-staffing/
+├── index.html          # Main page
+├── submit.php          # Form handler
+├── css/
+│   └── style.css       # Styles
+├── js/
+│   └── script.js       # JavaScript
+└── database.sql        # Database schema
