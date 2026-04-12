@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP IT Staffing - Your Premier IT Recruitment Partner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body class="light-mode">
+    <!-- Dark Mode Toggle -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch">
+        <label for="theme-switch" class="theme-label">
+            <i class="fas fa-sun sun-icon"></i>
+            <i class="fas fa-moon moon-icon"></i>
+            <span class="toggle-ball"></span>
+        </label>
+    </div>
+
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    <!-- Header/Navigation -->
+    <header class="header glass-effect">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo" data-aos="fade-right">
+                        <div class="logo-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <span>JP IT Staffing</span>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#why-us" class="nav-link">Why Choose Us</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button class="mobile-toggle" id="mobile-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-aos="fade-up">Connecting Top IT Talent with Leading Companies</h1>
+                    <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">Your trusted partner in IT recruitment and staffing solutions</p>
+                    <div class="hero-buttons" data-aos="fade-up" data-aos-delay="200">
+                        <a href="#services" class="btn btn-primary pulse-btn">
+                            <span>Explore Services</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="hero-stats" data-aos="fade-up" data-aos-delay="300">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="500">0</span>
+                            <span class="stat-label">Placements</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="100">0</span>
+                            <span class="stat-label">Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="95">0</span>
+                            <span class="stat-label">Success Rate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-delay="400">
+                    <div class="hero-illustration">
+                        <div class="floating-card card-1">
+                            <i class="fas fa-code"></i>
+                            <span>Development</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-database"></i>
+                            <span>Database</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud</span>
+                        </div>
+                        <div class="floating-card card-4">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Security</span>
+                        </div>
+                        <div class="central-graphic">
+                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="100" cy="100" r="80" fill="url(#grad1)" opacity="0.2"/>
+                                <circle cx="100" cy="100" r="60" fill="url(#grad1)" opacity="0.3"/>
+                                <circle cx="100" cy="100" r="40" fill="url(#grad1)" opacity="0.5"/>
+                                <path d="M100,60 L120,100 L100,140 L80,100 Z" fill="#fff" opacity="0.9"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About JP IT Staffing</h2>
+                <p class="section-subtitle">Your Premier IT Recruitment Partner</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>Who We Are</h3>
+                    <p>JP IT Staffing is a leading IT recruitment and staffing solutions provider, dedicated to connecting exceptional talent with innovative companies. With years of experience in the industry, we understand the unique challenges of IT recruitment and deliver tailored solutions that drive success.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to bridge the gap between talented IT professionals and organizations seeking to build world-class technology teams. We strive to create meaningful connections that foster growth, innovation, and success for both candidates and clients.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Industry Expertise</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Personalized Service</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Quality Candidates</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Fast Turnaround</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-wrapper interactive-image">
+                        <div class="image-layers">
+                            <div class="layer layer-1"></div>
+                            <div class="layer layer-2"></div>
+                            <div class="layer layer-3"></div>
+                        </div>
+                        <div class="image-icon">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <div class="orbit-circles">
+                            <div class="orbit orbit-1">
+                                <div class="orbit-dot"></div>
+                            </div>
+                            <div class="orbit orbit-2">
+                                <div class="orbit-dot"></div>
+                            </div>
+                            <div class="orbit orbit-3">
+                                <div class="orbit-dot"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive IT Staffing Solutions</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Permanent Placement</h3>
+                    <p>Find the perfect long-term addition to your team. We specialize in placing highly skilled IT professionals in permanent positions across various technology domains.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-chevron-right"></i> Full-time positions</li>
+                        <li><i class="fas fa-chevron-right"></i> Executive search</li>
+                        <li><i class="fas fa-chevron-right"></i> Direct hire</li>
+                    </ul>
+                </div>
+
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Contract Staffing</h3>
+                    <p>Flexible staffing solutions for project-based needs. Access skilled professionals for short-term assignments without the commitment of permanent hiring.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-chevron-right"></i> Project-based hiring</li>
+                        <li><i class="fas fa-chevron-right"></i> Seasonal staffing</li>
+                        <li><i class="fas fa-chevron-right"></i> Contract-to-hire</li>
+                    </ul>
+                </div>
+
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Staff Augmentation</h3>
+                    <p>Scale your team quickly and efficiently. We provide skilled IT professionals to augment your existing workforce during peak periods or special projects.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-chevron-right"></i> Rapid scaling</li>
+                        <li><i class="fas fa-chevron-right"></i> Specialized skills</li>
+                        <li><i class="fas fa-chevron-right"></i> Flexible duration</li>
+                    </ul>
+                </div>
+
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Executive Search</h3>
+                    <p>Find visionary leaders for your organization. Our executive search service connects you with C-level executives and senior IT leadership talent.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-chevron-right"></i> C-level positions</li>
+                        <li><i class="fas fa-chevron-right"></i> IT directors</li>
+                        <li><i class="fas fa-chevron-right"></i> Technical leads</li>
+                    </ul>
+                </div>
+
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>IT Consulting</h3>
+                    <p>Expert guidance for your technology initiatives. Our consultants bring deep industry knowledge and best practices to help you achieve your IT goals.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-chevron-right"></i> Technology strategy</li>
+                        <li><i class="fas fa-chevron-right"></i> Process optimization</li>
+                        <li><i class="fas fa-chevron-right"></i> Digital transformation</li>
+                    </ul>
+                </div>
+
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Talent Development</h3>
+                    <p>Invest in your team's growth. We offer training and development programs to upskill your IT workforce and keep them current with latest technologies.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-chevron-right"></i> Technical training</li>
+                        <li><i class="fas fa-chevron-right"></i> Skill assessment</li>
+                        <li><i class="fas fa-chevron-right"></i> Career development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="why-us section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Why Choose JP IT Staffing</h2>
+                <p class="section-subtitle">What Sets Us Apart</p>
+            </div>
+            <div class="why-us-grid">
+                <div class="why-card glass-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="why-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Industry Expertise</h3>
+                    <p>Years of experience in IT recruitment means we understand the nuances of technology roles and can match the right talent to the right opportunities.</p>
+                </div>
+
+                <div class="why-card glass-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="why-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Extensive Network</h3>
+                    <p>Access to a vast pool of pre-screened IT professionals across all technology domains and experience levels.</p>
+                </div>
+
+                <div class="why-card glass-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="why-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Quick Turnaround</h3>
+                    <p>Our streamlined recruitment process ensures you get qualified candidates quickly, reducing your time-to-hire significantly.</p>
+                </div>
+
+                <div class="why-card glass-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="why-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Personalized Service</h3>
+                    <p>We take time to understand your unique requirements and company culture to ensure the perfect fit for both parties.</p>
+                </div>
+
+                <div class="why-card glass-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="why-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Quality Assurance</h3>
+                    <p>Rigorous screening and vetting processes ensure that only the most qualified candidates are presented to you.</p>
+                </div>
+
+                <div class="why-card glass-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="why-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Ongoing Support</h3>
+                    <p>We provide continuous support throughout the hiring process and beyond to ensure long-term success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="technologies section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technology Expertise</h2>
+                <p class="section-subtitle">Skilled Professionals Across All Major Technologies</p>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <i class="fab fa-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-react"></i>
+                    <span>React</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-angular"></i>
+                    <span>Angular</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-node-js"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-aws"></i>
+                    <span>AWS</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-docker"></i>
+                    <span>Docker</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-database"></i>
+                    <span>SQL/NoSQL</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-microsoft"></i>
+                    <span>.NET</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-cloud"></i>
+                    <span>Cloud</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Mobile</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Ready to find your next IT talent or opportunity?</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@jpitstaffing.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Business Street, Tech City, TC 12345</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" action="submit.php" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" id="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select name="service" id="service" required>
+                                <option value="">Select a Service</option>
+                                <option value="permanent">Permanent Placement</option>
+                                <option value="contract">Contract Staffing</option>
+                                <option value="augmentation">Staff Augmentation</option>
+                                <option value="executive">Executive Search</option>
+                                <option value="consulting">IT Consulting</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-code"></i>
+                        <span>JP IT Staffing</span>
+                    </div>
+                    <p>Your trusted partner in IT recruitment and staffing solutions. Connecting top talent with leading companies.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Permanent Placement</a></li>
+                        <li><a href="#services">Contract Staffing</a></li>
+                        <li><a href="#services">Staff Augmentation</a></li>
+                        <li><a href="#services">Executive Search</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect With Us</h4>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 JP IT Staffing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
