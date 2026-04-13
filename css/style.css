@@ -899,27 +899,62 @@ section {
     margin-top: 2rem;
 }
 
+/* 2. Tablet View  */
+@media screen and (max-width: 991px) {
+    .tech-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+/* 3. Mobile View */
+
+@media screen and (max-width: 455px) {
+    .tech-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1rem !important;
+        padding: 0 10px;
+    }
+
+    .tech-item {
+        padding: 1rem !important;
+    }
+
+    .tech-item i {
+        font-size: 2.2rem !important; 
+    }
+    
+    .tech-item span {
+        font-size: 0.85rem;
+    }
+}
+
+/* 4. Common Item Styles (डिज़ाइन और एनीमेशन) */
 .tech-item {
     text-align: center;
     padding: 1.5rem;
-    background: var(--bg-card);
+    background: var(--bg-card, #ffffff);
     border-radius: 12px;
-    box-shadow: var(--shadow-sm);
+    box-shadow: var(--shadow-sm, 0 2px 4px rgba(0,0,0,0.1));
     transition: all 0.3s ease;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .tech-item:hover {
     transform: translateY(-5px) scale(1.05);
-    box-shadow: var(--shadow-xl);
-    background: var(--gradient-1);
+    box-shadow: var(--shadow-xl, 0 10px 20px rgba(0,0,0,0.15));
+    background: var(--gradient-1, #007bff);
     color: white;
 }
 
 .tech-item i {
     font-size: 3rem;
     margin-bottom: 0.5rem;
-    color: var(--primary-color);
+    color: var(--primary-color, #007bff);
     transition: color 0.3s ease;
 }
 
@@ -931,7 +966,6 @@ section {
     display: block;
     font-weight: 600;
 }
-
 /* ==========================================
    CONTACT SECTION
    ========================================== */
